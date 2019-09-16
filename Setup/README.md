@@ -9,8 +9,8 @@ En el presente documento se mostrara como instalar un programa(Visual Studio Cod
 ### Instala dotnet core
 
 Lo primero que se hara es instalar la libreria [.net core 2.2](https://dotnet.microsoft.com/download/thank-you/dotnet-runtime-2.2.6-windows-hosting-bundle-installer?fbclid=IwAR0OhwP6Kk7AkigwHz9mGQ-16N9iSXjQBJ28S8smryynA8rcrmCMNPpB3H4), quien se encargara de ejecutar los programas en Visual Studio Code
-![11](.\images\11.png)
-![12](.\images\12.png)
+![11](./images/11.png)
+![12](./images/12.png)
 
 
 ### Instalación y configuración de Visual Studio Code para C#
