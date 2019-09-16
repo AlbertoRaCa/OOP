@@ -31,13 +31,13 @@ Se lee y aceptan los terminos y condiciones al usar Visual Studio Code para post
 [Git](https://desktop.github.com/) es una herramineta disenada para gestionar los programas realizados en VSC, se utiliza por medio de la conexion de una cuenta en GitHub y VSC ![31](./images/31.png)
 
 Se abre Git y accede a la cuenta de GitHub
-![32]((./images/32.png))
-![33]((./images/33.png))
+![32](./images/32.png)
+![33](./images/33.png)
 
 Despues se crea un Repositorio en el "menu inicio - nuevo repositorio"
-![34]((./images/34.png))
+![34](./images/34.png)
 
 Despues de nombrar y describir el repositorio, se como elige la direccion en el equipo, asi como el programa en el que se utilizara y la licencia que se tiene
-![35]((./images/35.png)) 
+![35](./images/35.png) 
 
 Ahora estas listo para crear programas en VSC y suvirlos a GitHub por medio de Git
