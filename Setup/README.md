@@ -9,37 +9,35 @@ En el presente documento se mostrara como instalar un programa(Visual Studio Cod
 ### Instala dotnet core
 
 Lo primero que se hara es instalar la libreria [.net core 2.2](https://dotnet.microsoft.com/download/thank-you/dotnet-runtime-2.2.6-windows-hosting-bundle-installer?fbclid=IwAR0OhwP6Kk7AkigwHz9mGQ-16N9iSXjQBJ28S8smryynA8rcrmCMNPpB3H4), quien se encargara de ejecutar los programas en Visual Studio Code
-![1.1](.\images\11.png)
-![1.2](.\images\12.png)
+![11](.\images\11.jpg)
+![12](.\images\12.jpg)
 
 
 ### Instalación y configuración de Visual Studio Code para C#
 
 Lo primero es descargar [Visual Studio Code](https://code.visualstudio.com/#alt-downloads)
-![21](.\images\21.png)
+![21](.\images\21.jpg)
 
 Se lee y aceptan los terminos y condiciones al usar Visual Studio Code para posteriormente seguir los siguientes pasos de instalacion
-![22](.\images\22.png)
-![23](.\images\23.png)
-![24](.\images\24.png)
-![25](.\images\25.png)
-![26](.\images\26.png)
+![22](.\images\22.jpg)
+![23](.\images\23.jpg)
+![24](.\images\24.jpg)
+![25](.\images\25.jpg)
+![26](.\images\26.jpg)
 
 
 ### Instalación de git. conectado a tu cuenta de GitHub y VSC
 
-[Git](https://desktop.github.com/) es una herramineta disenada para gestionar los programas realizados en VSC, se utiliza por medio de la conexion de una cuenta en GitHub y VSC ![31](.\images\31.png)
+[Git](https://desktop.github.com/) es una herramineta disenada para gestionar los programas realizados en VSC, se utiliza por medio de la conexion de una cuenta en GitHub y VSC ![31](.\images\31.jpg)
 
 Se abre Git y accede a la cuenta de GitHub
-![32]((.\images\32.png))
-![33]((.\images\33.png))
+![32]((.\images\32.jpg))
+![33]((.\images\33.jpg))
 
 Despues se crea un Repositorio en el "menu inicio - nuevo repositorio"
-![3.4]((.\images\3.4.png))
+![34]((.\images\34.jpg))
 
 Despues de nombrar y describir el repositorio, se como elige la direccion en el equipo, asi como el programa en el que se utilizara y la licencia que se tiene
-![3.5]((.\images\3.5.png)) 
+![35]((.\images\35.jpg)) 
 
 Ahora estas listo para crear programas en VSC y suvirlos a GitHub por medio de Git
-
-
