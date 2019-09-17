@@ -7,8 +7,7 @@ namespace Tarea3
     {
         private String Titulo;
         private Int16 Ano;
-        //public String Pais;
-        //public String Director;
+        
 
         public void SetTitulo(String Titulo)
         {
@@ -27,6 +26,23 @@ namespace Tarea3
             return this.Ano;
         }
 
+
+        public Pelicula()
+        {
+
+        }
+        public Pelicula(String Titulo, Int16 Ano)
+        {
+            this.Titulo = Titulo;
+            this.Ano = Ano;
+        }
+
+
+        public void imprime()
+        {
+            Console.WriteLine("Titulo: {0}\nAno: {1}\n", this.Titulo, this.Ano);
+        }
+
     }
     class Program
     {
@@ -36,15 +52,13 @@ namespace Tarea3
             p1.SetTitulo("El laberinto del fauno");
             p1.SetAno(2006);
 
-            Console.WriteLine("Titulo: {0}\nAno: {1}\n", p1.GetTitulo(), p1.GetAno());
-
+            p1.imprime();
             
             Pelicula p2 = new Pelicula();
             p2.SetTitulo("La forma del agua");
             p2.SetAno(2017);
 
-            Console.WriteLine("Titulo: {0}\nAno: {1}\n", p2.GetTitulo(), p2.GetAno());
-
+            p2.imprime();
         }
     }
 }
