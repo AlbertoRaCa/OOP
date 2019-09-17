@@ -5,16 +5,16 @@
 ## PROGRAMACION ORIENTADA A OBJETOS
 
 ### TAREA 1
-[CREAR UN REPOSITORIO DE GITHUB](https://github.com/AlbertoRaCa/OOP/blob/master/TAREA1.md)
+[CREAR UN REPOSITORIO DE GITHUB](https://github.com/AlbertoRaCa/OOP/blob/master/UNIDAD1/TAREA1.md)
 
 ### TAREA 2
-[EJERCICIO DE MARKDOWN EN GITHUB](https://github.com/AlbertoRaCa/OOP/blob/master/Setup/TAREA2.md)
+[EJERCICIO DE MARKDOWN EN GITHUB](https://github.com/AlbertoRaCa/OOP/blob/master/Setup/UNIDAD1/TAREA2.md)
 
 ### TAREA 3
-[PROGRAMA BASICO PELICULAS](https://github.com/AlbertoRaCa/OOP/blob/master/Tarea3/Program.cs)
+[PROGRAMA BASICO PELICULAS](https://github.com/AlbertoRaCa/OOP/blob/master/UNIDAD1/Tarea3/Program.cs)
 
 ### TAREA 4
-[lISTA DE PELICULAS](https://github.com/AlbertoRaCa/OOP/blob/master/Tarea4/Program.cs)
+[lISTA DE PELICULAS](https://github.com/AlbertoRaCa/OOP/blob/master/UNIDAD1/Tarea4/Program.cs)
 
 ### TAREA 5
 ACTORES
