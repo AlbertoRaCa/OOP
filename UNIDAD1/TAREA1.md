@@ -8,7 +8,7 @@
 [CREAR UN REPOSITORIO DE GITHUB](https://github.com/AlbertoRaCa/OOP/blob/master/UNIDAD1/TAREA1.md)
 
 ### TAREA 2
-[EJERCICIO DE MARKDOWN EN GITHUB](https://github.com/AlbertoRaCa/OOP/blob/master/Setup/UNIDAD1/TAREA2.md)
+[EJERCICIO DE MARKDOWN EN GITHUB](https://github.com/AlbertoRaCa/OOP/blob/master/UNIDAD1/Setup/TAREA2.md)
 
 ### TAREA 3
 [PROGRAMA BASICO PELICULAS](https://github.com/AlbertoRaCa/OOP/blob/master/UNIDAD1/Tarea3/Program.cs)
