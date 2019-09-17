@@ -20,12 +20,20 @@ namespace Tarea3
         static void Main(string[] args)
         {
             Pelicula p1 = new Pelicula();
-            p1.Titulo = "Gantz";
-            p1.Ano = 2010;
-            p1.Pais = "Japon";
-            p1.Director = "Taro Kawazu";
+            p1.Titulo = "El laberinto del fauno";
+            p1.Ano = 2006;
+            p1.Pais = "Mexico";
+            p1.Director = "Guillermo del Toro";
 
             p1.imprime();
+
+            Pelicula p2 = new Pelicula();
+            p2.Titulo = "La forma del agua";
+            p2.Ano = 2017;
+            p2.Pais = "Estados Unidos";
+            p2.Director = "Guillermo del Toro";
+
+            p2.imprime();
         }
     }
 }
