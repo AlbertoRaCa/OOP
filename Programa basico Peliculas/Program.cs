@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Programa_basico_Peliculas
 {
@@ -69,6 +70,18 @@ namespace Programa_basico_Peliculas
             //p2.Pais = "Estados unidos";
             //p2.Director = "Gillermo Del Toro";
             //Console.WriteLine("Titulo: {0}\nAno :{1}\n", p2.GetTitulo(), p2.GetAno());
+
+            //Lista
+            List<Pelicula> peliculas = new List<Pelicula>();
+            peliculas.Add(new Pelicula("HellBoy", 2004));
+            peliculas.Add(new Pelicula("Hellboy II: el ejército dorado", 2008));
+            peliculas.Add(new Pelicula("Roma ", 2019));
+
+            //Ciclo foreach
+            foreach(Pelicula p in peliculas)
+            {
+                p.imprime();
+            }
             
         }
     }
