@@ -8,8 +8,14 @@ namespace Programa_basico_Peliculas
         //Atributos
         private String Titulo;
         private Int16 Ano;
-        public string Pais;
-        public string Director;
+
+        //Como no se usan y no quiero que se imprima en letras amarillas
+        //puse como comentarios los atributos pais & director
+        //public string Pais;
+        //public string Director;
+        
+        //Atributo tipo lista
+        private List<Actor> actores = new List<Actor>();
 
         //Metodos get set para utilizar atributos privados en otras clases
         public void SetTitulo(string Titulo)
@@ -28,7 +34,7 @@ namespace Programa_basico_Peliculas
         {
             return this.Ano;
         }
-
+        
         //Primer constructor
         public Pelicula()
         {
@@ -41,48 +47,48 @@ namespace Programa_basico_Peliculas
             this.Ano = Ano;
         }
 
-        //metodo imprime
+        //Metodo imprime
         public void imprime()
         {
             Console.WriteLine("Titulo: {0}\nAno: {1}\n", this.Titulo, this.Ano);
         }
+
+        //Metodo agregar actor a la Lista
+        public void AgregarActor(Actor actor) 
+        {
+			actores.Add(actor);
+		}
+
+        //Metodo imprime lista
+		public void ImprimeActores() 
+        {
+			foreach(Actor actor in actores)
+            {
+                Console.WriteLine("Actor: {0}\nAno: {1}\n", actor.Nombre, actor.Ano);
+            }
+        }
     }
+
+    //Clase Actor
+    class Actor
+	{
+		public string Nombre;
+		public Int16 Ano;
+		public Actor(string Nombre, Int16 Ano) 
+        {
+			this.Nombre = Nombre;
+			this.Ano = Ano;
+		}
+	}
     class Program
     {
         static void Main(String[] args)
         {
-            //Objeto tipo pelicula
-            Pelicula p1 = new Pelicula();
-            p1.SetTitulo("El laberinto del fauno");
-            p1.SetAno(2006);
+            Pelicula p1 = new Pelicula("La La Land", 2016);
+            p1.AgregarActor(new Actor("Ryan Gosling", 1980));
+            p1.AgregarActor(new Actor("Emma Stone", 1988));
 
-            p1.imprime();
-            //p1.Pais = "Mexico";
-            //p1.Director = "Gillermo Del Toro";
-            //Console.WriteLine("Titulo: {0}\nAno :{1}\n", p1.GetTitulo(), p1.GetAno());
-            //Console.WriteLine("Titulo: {0}\nAno :{1}\nPais: {2}\nDirector: {3}\n", p1.Titulo, p1.Ano, p1.Pais, p1.Director);
-
-            Pelicula p2 = new Pelicula();
-            p2.SetTitulo("La forma del agua");
-            p2.SetAno(2017);
-
-            p2.imprime();
-            //p2.Pais = "Estados unidos";
-            //p2.Director = "Gillermo Del Toro";
-            //Console.WriteLine("Titulo: {0}\nAno :{1}\n", p2.GetTitulo(), p2.GetAno());
-
-            //Lista
-            List<Pelicula> peliculas = new List<Pelicula>();
-            peliculas.Add(new Pelicula("HellBoy", 2004));
-            peliculas.Add(new Pelicula("Hellboy II: el ejército dorado", 2008));
-            peliculas.Add(new Pelicula("Roma ", 2019));
-
-            //Ciclo foreach
-            foreach(Pelicula p in peliculas)
-            {
-                p.imprime();
-            }
-            
+            p1.ImprimeActores();
         }
-    }
+    } 
 }
